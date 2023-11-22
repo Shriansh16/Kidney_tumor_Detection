@@ -17,7 +17,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='ChickenDiseaseClassifier',
+name='KidneyTumorDetection',
 version='0.0.1',
 author='shriansh',
 author_email='shrianshsingh20@gmail.com',

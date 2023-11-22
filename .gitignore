@@ -1,3 +1,4 @@
 *.h5
 /artifacts/
 /venv/
+/KidneyDiseaseDetection/
