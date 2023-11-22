@@ -1,7 +1,10 @@
 import os
-from box.exceptions import BoxValueError
+import sys
 import yaml
-from cnnClassifier import logger
+from box import ConfigBox
+sys.path.insert(0, 'D:\Kidney_tumor_detection\src')
+from logger import logging
+from exception import CustomException
 import json
 import joblib
 from ensure import ensure_annotations
@@ -31,10 +34,9 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
             content = yaml.safe_load(yaml_file)
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
-    except BoxValueError:
-        raise ValueError("yaml file is empty")
+    
     except Exception as e:
-        raise e
+        raise CustomException(e,sys)
     
 
 
