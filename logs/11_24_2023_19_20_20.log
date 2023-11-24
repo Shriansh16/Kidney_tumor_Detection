@@ -1,0 +1,9 @@
+[ 2023-11-24 19:20:32,304 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-24 19:25:33,065 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-24 19:25:33,074 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-24 19:25:33,076 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-24 19:25:33,077 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-24 19:25:33,078 ] 9 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-11-24 19:25:58,223 ] 13 root - INFO - dataset downloaded successfully
+[ 2023-11-24 19:25:58,224 ] 21 root - INFO - unzipping the downloaded file
+[ 2023-11-24 19:25:59,268 ] 24 root - INFO - unzipping of file successfull
