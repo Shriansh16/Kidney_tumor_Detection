@@ -1,3 +1,8 @@
-hiohiofgdoifd:
-  root_dfdfdfgdfg: artifacts/data_inggfdgdfsgestion
-  sougfdgdfearce_url: gfdgdfagqNogT2CCLNk/view?usp=sharing
+AUGMENTATION: True
+IMAGE_SIZE: [224,224,3] #as per vgg16, it will vary wrt model
+BATCH_SIZE: 16
+INCLUDE_TOP: FALSE
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
