@@ -1,0 +1,10 @@
+[ 2023-11-25 18:48:44,281 ] 9 root - INFO - {STAGE_NAME} HAS STARTED
+[ 2023-11-25 18:48:44,291 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-25 18:48:44,302 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-25 18:48:44,303 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-25 18:48:44,303 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-25 18:48:44,303 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-11-25 18:49:21,403 ] 23 root - INFO - dataset downloaded successfully
+[ 2023-11-25 18:49:21,403 ] 31 root - INFO - unzipping the downloaded file
+[ 2023-11-25 18:49:22,301 ] 34 root - INFO - unzipping of file successfull
+[ 2023-11-25 18:49:22,302 ] 12 root - INFO - {STAGE_NAME} HAS COMPLETED
