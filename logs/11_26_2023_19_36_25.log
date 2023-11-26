@@ -1,0 +1,17 @@
+[ 2023-11-26 19:36:39,391 ] 11 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-11-26 19:36:39,394 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-26 19:36:39,396 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-26 19:36:39,396 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-26 19:36:39,397 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-26 19:36:39,397 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-11-26 19:37:22,985 ] 23 root - INFO - dataset downloaded successfully
+[ 2023-11-26 19:37:22,985 ] 31 root - INFO - unzipping the downloaded file
+[ 2023-11-26 19:37:24,065 ] 34 root - INFO - unzipping of file successfull
+[ 2023-11-26 19:37:24,065 ] 14 root - INFO - DATA INGESTION STAGE HAS COMPLETED
+[ 2023-11-26 19:37:24,065 ] 23 root - INFO - PREPARE BASE MODEL STAGE HAS STARTED
+[ 2023-11-26 19:37:24,069 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-26 19:37:24,072 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-26 19:37:24,073 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-26 19:37:24,074 ] 54 root - INFO - created directory at: artifacts/prepare_base_model
+[ 2023-11-26 19:37:24,891 ] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2023-11-26 19:37:25,230 ] 25 root - INFO - PREPARE BASE MODEL STAGE HAS completed
