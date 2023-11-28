@@ -30,5 +30,7 @@ if __name__=='__main__':
     except Exception as e:
         logging.info("error occured in prepare base model pipeline")
         raise CustomException(e,sys)
+    
+    
 
         
