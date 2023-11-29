@@ -1,0 +1,12 @@
+[ 2023-11-29 18:59:36,998 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 18:59:37,037 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 18:59:37,044 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 19:00:46,382 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 19:00:46,385 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 19:00:46,386 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 19:03:27,557 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 19:03:27,559 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 19:03:27,561 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 19:04:37,555 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 19:04:37,557 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 19:04:37,559 ] 54 root - INFO - created directory at: artifacts
