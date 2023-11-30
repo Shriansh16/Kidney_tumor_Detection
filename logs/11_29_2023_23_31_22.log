@@ -1,0 +1,26 @@
+[ 2023-11-29 23:31:32,574 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-11-29 23:31:38,931 ] 15 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-11-29 23:31:38,944 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:31:38,956 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:31:38,957 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:31:38,958 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-29 23:31:38,958 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-11-29 23:32:11,248 ] 23 root - INFO - dataset downloaded successfully
+[ 2023-11-29 23:32:11,248 ] 31 root - INFO - unzipping the downloaded file
+[ 2023-11-29 23:32:12,222 ] 34 root - INFO - unzipping of file successfull
+[ 2023-11-29 23:32:12,223 ] 18 root - INFO - DATA INGESTION STAGE HAS COMPLETED
+[ 2023-11-29 23:32:12,223 ] 27 root - INFO - PREPARE BASE MODEL STAGE HAS STARTED
+[ 2023-11-29 23:32:12,225 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:32:12,227 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:32:12,228 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:32:12,228 ] 54 root - INFO - created directory at: artifacts/prepare_base_model
+[ 2023-11-29 23:32:13,076 ] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2023-11-29 23:32:13,625 ] 29 root - INFO - PREPARE BASE MODEL STAGE HAS completed
+[ 2023-11-29 23:32:13,625 ] 38 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-11-29 23:32:13,628 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:32:13,631 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:32:13,631 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:32:13,632 ] 54 root - INFO - created directory at: artifacts\training
+[ 2023-11-29 23:34:13,657 ] 40 root - INFO - DATA INGESTION STAGE DONE
+[ 2023-11-29 23:34:13,657 ] 46 root - INFO - EVALUATION HAS STARTED
+[ 2023-11-29 23:34:13,657 ] 49 root - INFO - EVALUATION HAS COMPLETED

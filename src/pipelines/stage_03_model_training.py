@@ -4,7 +4,7 @@ sys.path.insert(0, 'D:\Kidney_tumor_detection\src')
 from logger import *
 from exception import *
 from config.configuration import *
-from src.components.model_training import *
+from components.model_training import *
 
 STAGE_NAME='TRAINING'
 

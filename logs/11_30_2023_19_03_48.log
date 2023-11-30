@@ -1,0 +1,6 @@
+[ 2023-11-30 19:03:58,129 ] 28 root - INFO - stage EVALUATION STAGE started 
+[ 2023-11-30 19:03:58,129 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-30 19:03:58,129 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-30 19:03:58,129 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-30 19:04:35,984 ] 68 root - INFO - json file saved at: scores.json
+[ 2023-11-30 19:04:36,516 ] 33 root - INFO - error occured in runnig of the model evaluation pipeline

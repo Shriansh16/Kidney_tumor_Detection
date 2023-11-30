@@ -1,0 +1,35 @@
+[ 2023-11-29 23:51:07,560 ] 15 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-11-29 23:51:07,564 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:51:07,568 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:51:07,570 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:51:07,570 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-29 23:51:07,571 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-11-29 23:53:33,809 ] 23 root - INFO - dataset downloaded successfully
+[ 2023-11-29 23:53:33,809 ] 31 root - INFO - unzipping the downloaded file
+[ 2023-11-29 23:53:34,842 ] 34 root - INFO - unzipping of file successfull
+[ 2023-11-29 23:53:34,842 ] 18 root - INFO - DATA INGESTION STAGE HAS COMPLETED
+[ 2023-11-29 23:53:34,842 ] 27 root - INFO - PREPARE BASE MODEL STAGE HAS STARTED
+[ 2023-11-29 23:53:34,842 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:53:34,842 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:53:34,842 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:53:34,842 ] 54 root - INFO - created directory at: artifacts/prepare_base_model
+[ 2023-11-29 23:53:35,871 ] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2023-11-29 23:53:36,253 ] 29 root - INFO - PREPARE BASE MODEL STAGE HAS completed
+[ 2023-11-29 23:53:36,253 ] 38 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-11-29 23:53:36,258 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:53:36,260 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:53:36,260 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:53:36,261 ] 54 root - INFO - created directory at: artifacts\training
+[ 2023-11-29 23:55:35,194 ] 40 root - INFO - DATA INGESTION STAGE DONE
+[ 2023-11-29 23:55:35,195 ] 46 root - INFO - EVALUATION HAS STARTED
+[ 2023-11-29 23:55:35,205 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:55:35,215 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:55:35,218 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:56:20,299 ] 68 root - INFO - json file saved at: scores.json
+[ 2023-11-29 23:56:24,381 ] 274 absl - WARNING - Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[ 2023-11-29 23:56:25,553 ] 797 tensorflow - INFO - Assets written to: C:\Users\SHRIAN~1\AppData\Local\Temp\tmpzyp7a3gd\model\data\model\assets
+[ 2023-11-29 23:56:42,114 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\81328388308c49eeb6fae4d5a90d4135\artifacts\model\data
+[ 2023-11-29 23:56:42,117 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\81328388308c49eeb6fae4d5a90d4135\artifacts\model\data\model
+[ 2023-11-29 23:56:42,119 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\81328388308c49eeb6fae4d5a90d4135\artifacts\model\data\model\assets
+[ 2023-11-29 23:56:42,129 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\81328388308c49eeb6fae4d5a90d4135\artifacts\model\data\model\variables
+[ 2023-11-29 23:56:42,330 ] 49 root - INFO - EVALUATION HAS COMPLETED

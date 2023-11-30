@@ -1,0 +1,5 @@
+[ 2023-11-29 23:39:09,034 ] 24 root - INFO - EVALUATION STAGE HAS STARTED
+[ 2023-11-29 23:39:09,037 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-29 23:39:09,041 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-29 23:39:09,042 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-29 23:39:10,005 ] 30 root - INFO - ERROR OCCUERED IN EVALUATION PIPELINE
