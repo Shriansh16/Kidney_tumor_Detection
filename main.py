@@ -1,3 +1,4 @@
+import os
 import sys
 sys.path.insert(0, 'D:\Kidney_tumor_detection\src')
 from logger import logging
@@ -43,6 +44,9 @@ except Exception as e:
         raise CustomException(e,sys)
 
 try:
+        os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/shrianshsingh20/Kidney_tumor_Detection.mlflow"
+        os.environ["MLFLOW_TRACKING_USERNAME"]="shrianshsingh20"
+        os.environ["MLFLOW_TRACKING_PASSWORD"]="1ed862e5af9a1dde281263c79e0305550ac28646"
         logging.info(f'{stage_name} HAS STARTED')
         obj4=EvaluationPipeline()
         obj4.main()

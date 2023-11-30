@@ -1,0 +1,13 @@
+[ 2023-11-30 20:55:25,229 ] 30 root - INFO - stage EVALUATION STAGE started 
+[ 2023-11-30 20:55:25,232 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-30 20:55:25,233 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-30 20:55:25,234 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-30 20:56:02,884 ] 68 root - INFO - json file saved at: scores.json
+[ 2023-11-30 20:56:02,889 ] 68 root - INFO - json file saved at: scores.json
+[ 2023-11-30 20:56:05,340 ] 274 absl - WARNING - Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[ 2023-11-30 20:56:06,334 ] 797 tensorflow - INFO - Assets written to: C:\Users\SHRIAN~1\AppData\Local\Temp\tmp3l50k1s0\model\data\model\assets
+[ 2023-11-30 20:56:18,406 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\6a4ca4f93496458bbd68ea6377de1da5\artifacts\model\data
+[ 2023-11-30 20:56:18,409 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\6a4ca4f93496458bbd68ea6377de1da5\artifacts\model\data\model
+[ 2023-11-30 20:56:18,410 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\6a4ca4f93496458bbd68ea6377de1da5\artifacts\model\data\model\assets
+[ 2023-11-30 20:56:18,417 ] 71 root - INFO - creating D:\Kidney_tumor_detection\mlruns\0\6a4ca4f93496458bbd68ea6377de1da5\artifacts\model\data\model\variables
+[ 2023-11-30 20:56:18,556 ] 33 root - INFO - stage EVALUATION STAGE completed
