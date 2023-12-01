@@ -1,0 +1,6 @@
+[ 2023-12-01 18:20:29,080 ] 24 root - INFO - {STAGE_NAME} HAS STARTED
+[ 2023-12-01 18:20:29,080 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-12-01 18:20:29,080 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-12-01 18:20:29,080 ] 54 root - INFO - created directory at: artifacts
+[ 2023-12-01 18:20:29,080 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-12-01 18:20:29,080 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
