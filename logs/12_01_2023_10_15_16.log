@@ -1,0 +1,9 @@
+[ 2023-12-01 10:15:26,146 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-12-01 10:15:32,581 ] 16 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-12-01 10:15:32,597 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-12-01 10:15:32,607 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-12-01 10:15:32,609 ] 54 root - INFO - created directory at: artifacts
+[ 2023-12-01 10:15:32,610 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-12-01 10:15:32,610 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-12-01 10:15:45,874 ] 25 root - INFO - ERROR OCCURED IN DOWNLOADING THE DATASET
+[ 2023-12-01 10:15:45,875 ] 22 root - INFO - ERROR OCCURED IN DATA INGESTION PIPELINE

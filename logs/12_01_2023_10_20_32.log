@@ -1,0 +1,32 @@
+[ 2023-12-01 10:20:40,629 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-12-01 10:20:45,665 ] 16 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-12-01 10:20:45,669 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-12-01 10:20:45,672 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-12-01 10:20:45,673 ] 54 root - INFO - created directory at: artifacts
+[ 2023-12-01 10:20:45,673 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-12-01 10:20:45,674 ] 19 root - INFO - downloading dataset from {url_path} into file {zip_file_path}
+[ 2023-12-01 10:29:43,176 ] 23 root - INFO - dataset downloaded successfully
+[ 2023-12-01 10:29:43,177 ] 31 root - INFO - unzipping the downloaded file
+[ 2023-12-01 10:29:54,872 ] 34 root - INFO - unzipping of file successfull
+[ 2023-12-01 10:29:54,873 ] 19 root - INFO - DATA INGESTION STAGE HAS COMPLETED
+[ 2023-12-01 10:29:54,874 ] 28 root - INFO - PREPARE BASE MODEL STAGE HAS STARTED
+[ 2023-12-01 10:29:54,877 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-12-01 10:29:54,880 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-12-01 10:29:54,881 ] 54 root - INFO - created directory at: artifacts
+[ 2023-12-01 10:29:54,881 ] 54 root - INFO - created directory at: artifacts/prepare_base_model
+[ 2023-12-01 10:29:56,274 ] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2023-12-01 10:29:56,643 ] 30 root - INFO - PREPARE BASE MODEL STAGE HAS completed
+[ 2023-12-01 10:29:56,644 ] 39 root - INFO - DATA INGESTION STAGE HAS STARTED
+[ 2023-12-01 10:29:56,647 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-12-01 10:29:56,649 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-12-01 10:29:56,650 ] 54 root - INFO - created directory at: artifacts
+[ 2023-12-01 10:29:56,651 ] 54 root - INFO - created directory at: artifacts\training
+[ 2023-12-01 14:50:49,046 ] 41 root - INFO - DATA INGESTION STAGE DONE
+[ 2023-12-01 14:50:49,059 ] 50 root - INFO - EVALUATION HAS STARTED
+[ 2023-12-01 14:50:49,075 ] 35 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-12-01 14:50:49,082 ] 35 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-12-01 14:50:49,086 ] 54 root - INFO - created directory at: artifacts
+[ 2023-12-01 14:58:24,834 ] 68 root - INFO - json file saved at: scores.json
+[ 2023-12-01 14:58:24,838 ] 68 root - INFO - json file saved at: scores.json
+[ 2023-12-01 14:58:30,454 ] 804 tensorflow - INFO - Assets written to: C:\Users\SHRIAN~1\AppData\Local\Temp\tmpqqi3bdbe\model\data\model\assets
+[ 2023-12-01 14:59:41,066 ] 53 root - INFO - EVALUATION HAS COMPLETED
