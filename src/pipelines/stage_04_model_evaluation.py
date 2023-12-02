@@ -22,6 +22,7 @@ class EvaluationPipeline:
             evaluation1.evaluation()
             evaluation1.save_score()
             #evaluation1.log_into_mlflow()
+            #not needed again and again
         except Exception as e:
             raise CustomException(e,sys)
 
