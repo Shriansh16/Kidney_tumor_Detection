@@ -1,0 +1,59 @@
+[ 2023-12-01 19:08:37,768 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.45:8080
+[ 2023-12-01 19:08:37,768 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-12-01 19:10:09,325 ] 96 werkzeug - INFO - 127.0.0.1 - - [01/Dec/2023 19:10:09] "GET / HTTP/1.1" 200 -
+[ 2023-12-01 19:10:33,517 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "d:\Kidney_tumor_detection\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\Kidney_tumor_detection\src\pipelines\prediction.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training","model.h5"))
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\keras\losses.py", line 299, in from_config
+    return cls(**config)
+TypeError: __init__() got an unexpected keyword argument 'fn'
+[ 2023-12-01 19:10:33,682 ] 96 werkzeug - INFO - 127.0.0.1 - - [01/Dec/2023 19:10:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-12-01 19:12:32,324 ] 96 werkzeug - INFO - 127.0.0.1 - - [01/Dec/2023 19:12:32] "GET / HTTP/1.1" 200 -
+[ 2023-12-01 19:12:41,879 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "d:\Kidney_tumor_detection\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "d:\Kidney_tumor_detection\src\pipelines\prediction.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training","model.h5"))
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "d:\Kidney_tumor_detection\venv\lib\site-packages\keras\losses.py", line 299, in from_config
+    return cls(**config)
+TypeError: __init__() got an unexpected keyword argument 'fn'
+[ 2023-12-01 19:12:41,880 ] 96 werkzeug - INFO - 127.0.0.1 - - [01/Dec/2023 19:12:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
