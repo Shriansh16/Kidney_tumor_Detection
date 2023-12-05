@@ -1,0 +1,40 @@
+[ 2023-12-05 22:02:40,438 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-12-05 22:02:42,664 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.45:8080
+[ 2023-12-05 22:02:42,665 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-12-05 22:02:44,814 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:02:44] "GET / HTTP/1.1" 200 -
+[ 2023-12-05 22:03:12,868 ] 19 root - INFO - 1
+[ 2023-12-05 22:03:15,013 ] 21 root - INFO - 2
+[ 2023-12-05 22:03:16,547 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:03:16] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:05:27,449 ] 19 root - INFO - 1
+[ 2023-12-05 22:05:28,918 ] 21 root - INFO - 2
+[ 2023-12-05 22:05:29,844 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:05:29] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:05:36,395 ] 19 root - INFO - 1
+[ 2023-12-05 22:05:37,506 ] 21 root - INFO - 2
+[ 2023-12-05 22:05:38,275 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:05:38] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:05:51,302 ] 19 root - INFO - 1
+[ 2023-12-05 22:05:52,606 ] 21 root - INFO - 2
+[ 2023-12-05 22:05:53,496 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:05:53] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:07:59,053 ] 19 root - INFO - 1
+[ 2023-12-05 22:08:00,278 ] 21 root - INFO - 2
+[ 2023-12-05 22:08:01,139 ] 159 tensorflow - WARNING - 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001C480057550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[ 2023-12-05 22:08:01,162 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:08:01] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:08:17,140 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:08:17] "GET / HTTP/1.1" 200 -
+[ 2023-12-05 22:11:04,610 ] 19 root - INFO - 1
+[ 2023-12-05 22:11:05,729 ] 21 root - INFO - 2
+[ 2023-12-05 22:11:06,483 ] 159 tensorflow - WARNING - 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001C480057700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[ 2023-12-05 22:11:06,488 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:11:06] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:11:41,902 ] 19 root - INFO - 1
+[ 2023-12-05 22:11:43,033 ] 21 root - INFO - 2
+[ 2023-12-05 22:11:43,850 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:11:43] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:11:53,550 ] 19 root - INFO - 1
+[ 2023-12-05 22:11:54,356 ] 21 root - INFO - 2
+[ 2023-12-05 22:11:55,418 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:11:55] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:12:04,569 ] 19 root - INFO - 1
+[ 2023-12-05 22:12:05,436 ] 21 root - INFO - 2
+[ 2023-12-05 22:12:06,387 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:12:06] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:12:13,831 ] 19 root - INFO - 1
+[ 2023-12-05 22:12:14,809 ] 21 root - INFO - 2
+[ 2023-12-05 22:12:15,741 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:12:15] "POST /predict HTTP/1.1" 200 -

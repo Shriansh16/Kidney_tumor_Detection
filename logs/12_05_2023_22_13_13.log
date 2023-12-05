@@ -1,0 +1,24 @@
+[ 2023-12-05 22:13:20,934 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-12-05 22:13:22,063 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.45:8080
+[ 2023-12-05 22:13:22,064 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-12-05 22:13:45,358 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:13:45] "GET / HTTP/1.1" 200 -
+[ 2023-12-05 22:13:50,395 ] 19 root - INFO - 1
+[ 2023-12-05 22:13:51,555 ] 21 root - INFO - 2
+[ 2023-12-05 22:13:52,312 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:13:52] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:14:15,705 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:14:15] "GET / HTTP/1.1" 200 -
+[ 2023-12-05 22:14:42,986 ] 19 root - INFO - 1
+[ 2023-12-05 22:14:43,892 ] 21 root - INFO - 2
+[ 2023-12-05 22:14:44,573 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:14:44] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:14:52,443 ] 19 root - INFO - 1
+[ 2023-12-05 22:14:53,261 ] 21 root - INFO - 2
+[ 2023-12-05 22:14:53,884 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:14:53] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:15:02,354 ] 19 root - INFO - 1
+[ 2023-12-05 22:15:03,204 ] 21 root - INFO - 2
+[ 2023-12-05 22:15:03,920 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:15:03] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-05 22:15:12,910 ] 19 root - INFO - 1
+[ 2023-12-05 22:15:13,742 ] 21 root - INFO - 2
+[ 2023-12-05 22:15:14,449 ] 159 tensorflow - WARNING - 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001D980B69550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[ 2023-12-05 22:15:14,457 ] 96 werkzeug - INFO - 192.168.29.45 - - [05/Dec/2023 22:15:14] "POST /predict HTTP/1.1" 200 -
